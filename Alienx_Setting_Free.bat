@@ -486,8 +486,8 @@ function Show-NetMenu {
         }
         [Console]::WriteLine()
 
-        [Console]::WriteLine("  " + (rgb 70 140 255) + "[1]  " + (rgb 255 255 255) + "START   " + (rgb 120 120 120) + "default " + (Format-Rate $global:NetDefaultBps))
-        [Console]::WriteLine("  " + (rgb 70 140 255) + "[2]  " + (rgb 255 255 255) + "RESET   " + (rgb 120 120 120) + "back to default")
+        [Console]::WriteLine("  " + (rgb 70 140 255) + "[1]  " + (rgb 255 255 255) + "START   " + (rgb 120 120 120) + "CONFIG " + (Format-Rate $global:NetDefaultBps))
+        [Console]::WriteLine("  " + (rgb 70 140 255) + "[2]  " + (rgb 255 255 255) + "RESET   " + (rgb 120 120 120) + "RESTORE ")
         [Console]::WriteLine("  " + (rgb 70 140 255) + "[3]  " + (rgb 255 255 255) + "CUSTOM  " + (rgb 120 120 120) + "set your own value")
         [Console]::WriteLine()
         [Console]::WriteLine("  " + (rgb 70 140 255) + "[0]  " + (rgb 255 255 255) + "Back")
